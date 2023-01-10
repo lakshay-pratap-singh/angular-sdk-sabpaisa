@@ -7,6 +7,7 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
@@ -17,11 +18,17 @@
     ],
     "lib": [
       "es2018",
+      "ES2022",
       "dom"
     ]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
+    "esModuleInterop": true, 
+    "allowSyntheticDefaultImports": true  
   }
 }
